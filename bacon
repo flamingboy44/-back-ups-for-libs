@@ -102,7 +102,7 @@ function library:CreateWindow(name, keyCode)
 	
 	-- This is a good spot to put the keybind code so...
 	if keyCode == nil then -- this will keep older UIs from breaking
-	    keyCode = Enum.KeyCode.RightShift
+	    keyCode = Enum.KeyCode.RightControl
 	end
 	
 	warn(name..": Press ["..tostring(keyCode).."] to show/hide the UI.")
